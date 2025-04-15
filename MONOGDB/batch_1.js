@@ -5,7 +5,9 @@
 // Q. What is the average age of users
 
 db.users.aggregate([
-    {}
+    {
+        group
+    }
 ])
 
 // Q. find the couting of distinct elements with key "fruits" sorted in descending order limited to top 5 results
